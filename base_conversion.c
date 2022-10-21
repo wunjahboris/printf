@@ -3,10 +3,10 @@
 int hex_check(int, char);
 
 /**
-*print_binary - converts a number from decimal to binary
-*@list: List of arguments passed to this function
-*Return: The length of the number printed
-*/
+ * print_binary - Converts a number from base decimal to binary
+ * @list: List of arguments passed to this function
+ * Return: The length of the number printed
+ */
 int print_binary(va_list list)
 {
 	unsigned int num;
@@ -43,10 +43,10 @@ int print_binary(va_list list)
 }
 
 /**
-*print_octal - prints decimal numbers in octal
-*@list: List of all the arguments passed to the program
-*Return: Number of symbols printed to stdout
-*/
+ * print_octal - Prints decimal numbers in octal
+ * @list: List of all the arguments passed to the program
+ * Return: Number of symbols printed to stdout
+ */
 int print_octal(va_list list)
 {
 	unsigned int num;
@@ -83,10 +83,10 @@ int print_octal(va_list list)
 }
 
 /**
-*print_hex - prints a decimal in hexadecimal
-*@list: list of the arguments passed to the function
-*Return: Number of characters printed
-*/
+ * print_hex - Prints a decimal in hexadecimal
+ * @list: List of the arguments passed to the function
+ * Return: Number of characters printed
+ */
 int print_hex(va_list list)
 {
 	unsigned int num;
@@ -129,11 +129,11 @@ int print_hex(va_list list)
 
 
 /**
-*print_hex - Prints a representation of a decimal number on a base 16 uppercase
-*@list: List of the arguments passed to the function
-*Return: Number of characters printed
-*/
-int print_hex(va_list list)
+ * print_heX - Prints a representation of a decimal number on base16 Uppercase
+ * @list: List of the arguments passed to the function
+ * Return: Number of characters printed
+ */
+int print_heX(va_list list)
 {
 	unsigned int num;
 	int len;
@@ -174,11 +174,11 @@ int print_hex(va_list list)
 }
 
 /**
-*hex_check - Check which hex function is calling it
-*@num: Number to convert into letter
-*@x: Tells which hex function is calling it
-*Return: Ascii value for a letter
-*/
+ * hex_check - Checks which hex function is calling it
+ * @num: Number to convert into letter
+ * @x: Tells which hex function is calling it
+ * Return: Ascii value for a letter
+ */
 int hex_check(int num, char x)
 {
 	char *hex = "abcdef";
